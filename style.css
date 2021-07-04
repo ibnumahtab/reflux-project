@@ -32,7 +32,7 @@
 
 	Table of Content
 	----------------
-	00.
+	00. Common CSS
 	01. 
 	02. 
 	03. 
@@ -46,5 +46,118 @@
  ========================================================== */
 
 /* 
-		---> 00. Something <---
+		---> 00. Common CSS <---
 ======================================== */
+body {
+	color: #e8e8e8;
+	font-family: 'Inconsolata';
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	font-family: 'Nova Square';
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+a {
+	color: #e8e8e8;
+	text-decoration: none;
+}
+
+a:hover,
+input[type=submit]:hover {
+	cursor: pointer;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+/* 
+		---> 01. Main Wrapping Section <---
+=========================================== */
+#main-section {
+	background: url('./assets/img/page-bg.jpg') no-repeat fixed center/cover;
+}
+
+/* 
+		---> 02. Wrapper Class Style<---
+=========================================== */
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#side-navbar {
+	background-color: #5352ed;
+	width: 25%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.profile {
+	padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
