@@ -354,6 +354,6 @@ hr {
 ----------------------- */
 form input:nth-child(1),
 form input:nth-child(2) {
-	width: 49%;
+	width: 49.4%;
 	display: inline-block;
 }
