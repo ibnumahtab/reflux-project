@@ -162,6 +162,26 @@ hr {
 	border: 2px solid #5352ed;
 }
 
+.about-details-container,
+.skills-details-container {
+	overflow: hidden;
+}
+
+.about-first-line,
+.about-second-line,
+.skill-items {
+	display: flex;
+	padding: 40px 0;
+}
+
+.about-first-image,
+.first-description,
+.second-description,
+.about-second-image,
+.skillbox {
+	width: 50%;
+}
+
 /* 
 		---> 01. Main Wrapping Section <---
 =========================================== */
@@ -278,22 +298,8 @@ hr {
 
 /* → About Section ←
 --------------------- */
-.about-details-container {
-	overflow: hidden;
-}
 .about-details-container img {
 	border-radius: 5px;
-}
-.about-first-line,
-.about-second-line {
-	display: flex;
-	padding: 40px 0;
-}
-.about-first-image,
-.first-description,
-.second-description,
-.about-second-image {
-	width: 50%;
 }
 .first-description,
 .about-second-image {
@@ -303,8 +309,11 @@ hr {
 	padding-bottom: 0;
 }
 
-
-
+/* → Skills Section ←
+---------------------- */
+.skillbox {
+	padding: 60px 40px;
+}
 
 
 
