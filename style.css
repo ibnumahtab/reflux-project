@@ -137,6 +137,10 @@ hr {
 	overflow: hidden;
 }
 
+.details {
+	overflow: hidden;
+}
+
 .title {
 	padding: 0 60px;
 	text-align: center;
@@ -258,9 +262,6 @@ hr {
 
 /* → About Section ←
 --------------------- */
-
-
-
 
 
 
