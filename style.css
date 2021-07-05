@@ -362,3 +362,10 @@ form .btn {
 	display: block;
 	margin: 0 auto;
 }
+
+
+/* Optional Comment */
+.portfolio-section,
+.skills-section{
+	display: none;
+}
