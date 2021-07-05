@@ -116,6 +116,7 @@ textarea:focus {
 	width: 100%;
 	margin-bottom: 30px;
 	padding: 10px 10px;
+	color: #e8e8e8;
 	background-color: rgba(232, 232, 232, 0.089);
 	border: none;
 	outline: none;
