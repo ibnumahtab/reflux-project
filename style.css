@@ -93,7 +93,7 @@ a {
 }
 
 a:hover,
-input[type=submit]:hover {
+.btn:hover {
 	cursor: pointer;
 }
 
@@ -356,4 +356,8 @@ form input:nth-child(1),
 form input:nth-child(2) {
 	width: 49.4%;
 	display: inline-block;
+}
+form .btn {
+	display: block;
+	margin: 0 auto;
 }
