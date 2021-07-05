@@ -133,7 +133,7 @@ hr {
 }
 
 .container {
-	padding: 80px 0;
+	padding: 70px 0 60px;
 	overflow: hidden;
 }
 
@@ -144,6 +144,22 @@ hr {
 .title {
 	padding: 0 60px;
 	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 3px;
+	padding: 8px 20px;
+	color: #5352ed;
+	background-color: #e8e8e8;
+	font-weight: 700;
+	border: 2px solid transparent;
+	transition: .3s;
+}
+.btn:hover {
+	color: #e8e8e8;
+	background-color: transparent;
+	border: 2px solid #5352ed;
 }
 
 /* 
@@ -262,9 +278,30 @@ hr {
 
 /* → About Section ←
 --------------------- */
-
-
-
+.about-details-container {
+	overflow: hidden;
+}
+.about-details-container img {
+	border-radius: 5px;
+}
+.about-first-line,
+.about-second-line {
+	display: flex;
+	padding: 40px 0;
+}
+.about-first-image,
+.first-description,
+.second-description,
+.about-second-image {
+	width: 50%;
+}
+.first-description,
+.about-second-image {
+	padding-left: 40px;
+}
+.about-second-line {
+	padding-bottom: 0;
+}
 
 
 
