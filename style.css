@@ -110,11 +110,21 @@ textarea:focus {
 	outline: none;
 }
 
+hr {
+	border: none;
+	border-bottom: 2px solid #55535267;
+}
+
+.section-break-rule {
+	border-bottom: 3px solid #555352;
+}
+
 .profile,
 .social-links {
 	padding: 60px 40px;
 	overflow: hidden;
 }
+
 
 /* 
 		---> 01. Main Wrapping Section <---
@@ -127,6 +137,7 @@ textarea:focus {
 		---> 02. Wrapper Class Style <---
 ========================================== */
 .wrapper {
+	display: flex;
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -136,8 +147,8 @@ textarea:focus {
 =================================== */
 
 #side-navbar {
-	background-color: #5352ed;
 	width: 25%;
+	background-color: #5352ed;
 	text-align: center;
 	overflow: hidden;
 }
@@ -216,6 +227,17 @@ textarea:focus {
 ------------------------- */
 .copyright {
 	padding: 20px 40px;
+}
+
+/* 
+		---> 04. Descroption Section <---
+========================================== */
+#descriptions {
+	width: 75%;
+	overflow: hidden;
+}
+.descriptions-wrapper {
+	padding-left: 60px;
 }
 
 
