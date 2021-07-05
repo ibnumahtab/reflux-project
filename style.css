@@ -33,16 +33,21 @@
 	Table of Content
 	----------------
 	00. Common CSS
-	01. 
-	02. 
-	03. 
-	04. 
-	05. 
-	06. 
-	07. 
-	08. 
-	09.
-	10.
+	01. Main Wrapping Section
+	02. Wrapper Class Style
+
+	03. Navbar Style
+		a. Profile
+		b. Menu
+		c. Social Profiles
+		d. Copyright Section
+	
+	04. Descroptions Section
+		a. About Section
+		b. Skills Section
+		c. Portfolio Section
+		d. Contact Section
+	
  ========================================================== */
 
 /* 
@@ -96,6 +101,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	text-align: center;
 }
 
 img {
@@ -106,9 +112,14 @@ input,
 textarea,
 input:focus,
 textarea:focus {
-	background-color: transparent;
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px 10px;
+	background-color: rgba(232, 232, 232, 0.089);
 	border: none;
 	outline: none;
+	box-sizing: border-box;
 }
 
 hr {
@@ -156,6 +167,7 @@ hr {
 	border: 2px solid transparent;
 	transition: .3s;
 }
+
 .btn:hover {
 	color: #e8e8e8;
 	background-color: transparent;
@@ -246,6 +258,7 @@ hr {
 .social-links {
 	border: 1px solid #55535238;
 }
+
 .social-items li {
 	display: inline;
 	padding: 8px;
@@ -292,6 +305,7 @@ hr {
 	width: 75%;
 	overflow: hidden;
 }
+
 .descriptions-wrapper {
 	padding-left: 60px;
 }
@@ -301,10 +315,12 @@ hr {
 .about-details-container img {
 	border-radius: 5px;
 }
+
 .first-description,
 .about-second-image {
 	padding-left: 40px;
 }
+
 .about-second-line {
 	padding-bottom: 0;
 }
@@ -315,9 +331,29 @@ hr {
 	padding: 60px 40px;
 }
 
+/* → Portfolio Section ←
+------------------------- */
+.filter-menu li {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid transparent;
+}
 
+.filter-menu li a {
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	transition: .5s;
+}
 
+.filter-menu li:hover a,
+.filter-menu li a.active {
+	border-bottom: 2px solid #5352ed;
+}
 
-
-
-
+/* → Contact Section ←
+----------------------- */
+form input:nth-child(1),
+form input:nth-child(2) {
+	width: 49%;
+	display: inline-block;
+}
