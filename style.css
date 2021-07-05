@@ -51,6 +51,7 @@
 body {
 	color: #e8e8e8;
 	font-family: 'Inconsolata';
+	font-size: 18px;
 	box-sizing: border-box;
 	text-rendering: optimizeLegibility;
 }
@@ -61,6 +62,7 @@ h3,
 h4 {
 	margin: 0;
 	font-family: 'Nova Square';
+	line-height: 1.5em;
 }
 
 h1 {
@@ -108,6 +110,12 @@ textarea:focus {
 	outline: none;
 }
 
+.profile,
+.social-links {
+	padding: 60px 40px;
+	overflow: hidden;
+}
+
 /* 
 		---> 01. Main Wrapping Section <---
 =========================================== */
@@ -116,12 +124,16 @@ textarea:focus {
 }
 
 /* 
-		---> 02. Wrapper Class Style<---
-=========================================== */
+		---> 02. Wrapper Class Style <---
+========================================== */
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
 }
+
+/* 
+		---> 03. Navbar Style <---
+=================================== */
 
 #side-navbar {
 	background-color: #5352ed;
@@ -130,20 +142,81 @@ textarea:focus {
 	overflow: hidden;
 }
 
-.profile {
-	padding: 40px;
+/* → Profile ←
+--------------- */
+.profile-image {
+	padding-bottom: 20px;
 }
 
+/* → Menu ←
+------------ */
+.menu {
+	overflow: hidden;
+}
 
+.menu-items li {
+	padding: 22px 10px;
+	font-size: 25px;
+	border-top: 2px solid #e8e8e8;
+	transition: .2s;
+}
 
+.menu-items li:last-child {
+	border-bottom: 2px solid #e8e8e8;
+}
 
+.menu-items li:hover {
+	background-color: #e8e8e8;
+	cursor: pointer;
+}
 
+.menu-items li:hover a {
+	color: #555352;
+}
 
+/* → Social Profiles ←
+----------------------- */
+.social-links {
+	border: 1px solid #55535238;
+}
+.social-items li {
+	display: inline;
+	padding: 8px;
+	font-size: 18px;
+	background-color: #03031b3b;
+	transition: .2s;
+}
 
+.social-items li:hover {
+	background-color: #e8e8e8;
+	cursor: pointer;
+}
 
+.social-items li:hover:first-child a {
+	color: #1877f2;
+}
 
+.social-items li:hover:nth-child(2) a {
+	color: #1da1f2
+}
 
+.social-items li:hover:nth-child(3) a {
+	color: #0077b5;
+}
 
+.social-items li:hover:nth-child(4) a {
+	color: #161b22;
+}
+
+.social-items li:hover:last-child a {
+	color: #e34a85;
+}
+
+/* → Copyright Section ←
+------------------------- */
+.copyright {
+	padding: 20px 40px;
+}
 
 
 
