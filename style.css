@@ -52,8 +52,9 @@ body {
 	color: #e8e8e8;
 	font-family: 'Inconsolata';
 	font-size: 18px;
-	box-sizing: border-box;
+	line-height: 1.5em;
 	text-rendering: optimizeLegibility;
+	box-sizing: border-box;
 }
 
 h1,
@@ -115,6 +116,12 @@ hr {
 	border-bottom: 2px solid #55535267;
 }
 
+.break-rule {
+	width: 70px;
+	margin: 10px auto 0;
+	border-bottom: 3px solid #5352ed;
+}
+
 .section-break-rule {
 	border-bottom: 3px solid #555352;
 }
@@ -125,6 +132,15 @@ hr {
 	overflow: hidden;
 }
 
+.container {
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+.title {
+	padding: 0 60px;
+	text-align: center;
+}
 
 /* 
 		---> 01. Main Wrapping Section <---
@@ -230,7 +246,7 @@ hr {
 }
 
 /* 
-		---> 04. Descroption Section <---
+		---> 04. Descroptions Section <---
 ========================================== */
 #descriptions {
 	width: 75%;
@@ -240,6 +256,8 @@ hr {
 	padding-left: 60px;
 }
 
+/* → About Section ←
+--------------------- */
 
 
 
